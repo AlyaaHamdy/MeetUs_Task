@@ -3233,10 +3233,10 @@ footer {
     padding: 5px 10px;
   }
 
-  .product-grid {
+  /* .product-grid {
     -ms-grid-columns: (1fr) [3];
     grid-template-columns: repeat(3, 1fr);
-  }
+  } */
 
   /**
    * #TESTIMONIALS, CTA & SERVICE 
@@ -3377,10 +3377,10 @@ footer {
     --fs-5: 1.125rem;
   }
 
-  .product-grid {
+  /* .product-grid {
     -ms-grid-columns: (1fr) [4];
     grid-template-columns: repeat(4, 1fr);
-  }
+  } */
 
   /**
    * #TESTIMONIALS, CTA, SERVICE
