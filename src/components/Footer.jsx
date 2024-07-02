@@ -1,4 +1,8 @@
 import React from 'react';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Footer() {
   return (
@@ -79,22 +83,22 @@ function Footer() {
           <ul className='header-social-container'>
             <li>
               <a href='#' className='social-link'>
-                <ion-icon name='logo-facebook' />
+                <FacebookOutlinedIcon name='logo-facebook' />
               </a>
             </li>
             <li>
               <a href='#' className='social-link'>
-                <ion-icon name='logo-twitter' />
+                <TwitterIcon name='logo-twitter' />
               </a>
             </li>
             <li>
               <a href='#' className='social-link'>
-                <ion-icon name='logo-instagram' />
+                <InstagramIcon name='logo-instagram' />
               </a>
             </li>
             <li>
               <a href='#' className='social-link'>
-                <ion-icon name='logo-linkedin' />
+                <LinkedInIcon name='logo-linkedin' />
               </a>
             </li>
           </ul>
@@ -106,22 +110,22 @@ function Footer() {
               <ul className='social-link'>
                 <li className='footer-nav-item'>
                   <a href='#' className='footer-nav-link'>
-                    <ion-icon name='logo-facebook' />
+                    <FacebookOutlinedIcon name='logo-facebook' />
                   </a>
                 </li>
                 <li className='footer-nav-item'>
                   <a href='#' className='footer-nav-link'>
-                    <ion-icon name='logo-twitter' />
+                    <TwitterIcon name='logo-twitter' />
                   </a>
                 </li>
                 <li className='footer-nav-item'>
                   <a href='#' className='footer-nav-link'>
-                    <ion-icon name='logo-linkedin' />
+                    <LinkedInIcon name='logo-linkedin' />
                   </a>
                 </li>
                 <li className='footer-nav-item'>
                   <a href='#' className='footer-nav-link'>
-                    <ion-icon name='logo-instagram' />
+                    <InstagramIcon name='logo-instagram' />
                   </a>
                 </li>
               </ul>

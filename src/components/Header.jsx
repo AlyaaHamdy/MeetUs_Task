@@ -6,6 +6,10 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ShoppingBasketOutlinedIcon from '@mui/icons-material/ShoppingBasketOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import GridViewOutlinedIcon from '@mui/icons-material/GridViewOutlined';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 import { StoreContext } from './context/StoreContext';
@@ -180,239 +184,23 @@ function Header() {
       </div>
       <div className='mobile-bottom-navigation'>
         <button className='action-btn' data-mobile-menu-open-btn>
-          <ion-icon name='menu-outline' />
+          <MenuOutlinedIcon name='menu-outline' />
         </button>
         <button className='action-btn'>
-          <ion-icon name='bag-handle-outline' />
+          <LocalMallOutlinedIcon name='bag-handle-outline' />
           <span className='count'>0</span>
         </button>
         <button className='action-btn'>
-          <ion-icon name='home-outline' />
+          <HomeOutlinedIcon name='home-outline' />
         </button>
         <button className='action-btn'>
-          <ion-icon name='heart-outline' />
+          <FavoriteBorderOutlinedIcon name='heart-outline' />
           <span className='count'>0</span>
         </button>
         <button className='action-btn' data-mobile-menu-open-btn>
-          <ion-icon name='grid-outline' />
+          <GridViewOutlinedIcon name='grid-outline' />
         </button>
       </div>
-      <nav className='mobile-navigation-menu has-scrollbar' data-mobile-menu>
-        <div className='menu-top'>
-          <h2 className='menu-title'>Menu</h2>
-          <button className='menu-close-btn' data-mobile-menu-close-btn>
-            <ion-icon name='close-outline' />
-          </button>
-        </div>
-        <ul className='mobile-menu-category-list'>
-          <li className='menu-category'>
-            <a href='#' className='menu-title'>
-              Home
-            </a>
-          </li>
-          <li className='menu-category'>
-            <button className='accordion-menu' data-accordion-btn>
-              <p className='menu-title'>Men's</p>
-              <div>
-                <ion-icon name='add-outline' className='add-icon' />
-                <ion-icon name='remove-outline' className='remove-icon' />
-              </div>
-            </button>
-            <ul className='submenu-category-list' data-accordion>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Shirt
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Shorts &amp; Jeans
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Safety Shoes
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Wallet
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className='menu-category'>
-            <button className='accordion-menu' data-accordion-btn>
-              <p className='menu-title'>Women's</p>
-              <div>
-                <ion-icon name='add-outline' className='add-icon' />
-                <ion-icon name='remove-outline' className='remove-icon' />
-              </div>
-            </button>
-            <ul className='submenu-category-list' data-accordion>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Dress &amp; Frock
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Earrings
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Necklace
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Makeup Kit
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className='menu-category'>
-            <button className='accordion-menu' data-accordion-btn>
-              <p className='menu-title'>Jewelry</p>
-              <div>
-                <ion-icon name='add-outline' className='add-icon' />
-                <ion-icon name='remove-outline' className='remove-icon' />
-              </div>
-            </button>
-            <ul className='submenu-category-list' data-accordion>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Earrings
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Couple Rings
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Necklace
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Bracelets
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className='menu-category'>
-            <button className='accordion-menu' data-accordion-btn>
-              <p className='menu-title'>Perfume</p>
-              <div>
-                <ion-icon name='add-outline' className='add-icon' />
-                <ion-icon name='remove-outline' className='remove-icon' />
-              </div>
-            </button>
-            <ul className='submenu-category-list' data-accordion>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Clothes Perfume
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Deodorant
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Flower Fragrance
-                </a>
-              </li>
-              <li className='submenu-category'>
-                <a href='#' className='submenu-title'>
-                  Air Freshener
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li className='menu-category'>
-            <a href='#' className='menu-title'>
-              Blog
-            </a>
-          </li>
-          <li className='menu-category'>
-            <a href='#' className='menu-title'>
-              Hot Offers
-            </a>
-          </li>
-        </ul>
-        <div className='menu-bottom'>
-          <ul className='menu-category-list'>
-            <li className='menu-category'>
-              <button className='accordion-menu' data-accordion-btn>
-                <p className='menu-title'>Language</p>
-                <ion-icon name='caret-back-outline' className='caret-back' />
-              </button>
-              <ul className='submenu-category-list' data-accordion>
-                <li className='submenu-category'>
-                  <a href='#' className='submenu-title'>
-                    English
-                  </a>
-                </li>
-                <li className='submenu-category'>
-                  <a href='#' className='submenu-title'>
-                    Español
-                  </a>
-                </li>
-                <li className='submenu-category'>
-                  <a href='#' className='submenu-title'>
-                    Frençh
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li className='menu-category'>
-              <button className='accordion-menu' data-accordion-btn>
-                <p className='menu-title'>Currency</p>
-                <ion-icon name='caret-back-outline' className='caret-back' />
-              </button>
-              <ul className='submenu-category-list' data-accordion>
-                <li className='submenu-category'>
-                  <a href='#' className='submenu-title'>
-                    USD $
-                  </a>
-                </li>
-                <li className='submenu-category'>
-                  <a href='#' className='submenu-title'>
-                    EUR €
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <ul className='menu-social-container'>
-            <li>
-              <a href='#' className='social-link'>
-                <ion-icon name='logo-facebook' />
-              </a>
-            </li>
-            <li>
-              <a href='#' className='social-link'>
-                <ion-icon name='logo-twitter' />
-              </a>
-            </li>
-            <li>
-              <a href='#' className='social-link'>
-                <ion-icon name='logo-instagram' />
-              </a>
-            </li>
-            <li>
-              <a href='#' className='social-link'>
-                <ion-icon name='logo-linkedin' />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
     </header>
   );
 }

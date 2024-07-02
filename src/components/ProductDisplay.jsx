@@ -65,13 +65,6 @@ const ProductDisplay = ({ id, description, price, image }) => {
                         showIndex={true}
                         className='showcase-img'
                       />
-
-                      <img
-                        src='./assets/images/icons/badge.svg'
-                        alt='badge'
-                        width={50}
-                        className='showcase-badge'
-                      />
                     </div>
                     <div className='showcase-content'>
                       <img
